@@ -60,3 +60,19 @@ footer { text-align: center; padding: 20px; color: #777; }
 .cred h3 { margin: 0; font-size: 1.05rem; color: #1f4e79; }
 .cred .issuer { margin: 2px 0 4px; font-size: 0.85rem; font-weight: bold; color: #0a66c2; }
 .cred p { margin: 0; font-size: 0.92rem; color: #555; line-height: 1.6; }
+.about-layout { max-width: 1100px; margin: 0 auto; padding: 60px 20px; display: grid; grid-template-columns: 340px 1fr; gap: 50px; align-items: start; }
+.about-side { position: sticky; top: 30px; }
+.about-photo { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
+.side-title { text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-weight: bold; color: #1f4e79; margin: 26px 0 10px; }
+.about-name { color: #1f4e79; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.15; margin: 0 0 8px; }
+.about-tagline { color: #0a66c2; font-size: 1.4rem; font-weight: bold; letter-spacing: 1px; margin: 0 0 6px; }
+.about-role { color: #555; margin: 0 0 24px; }
+.about-intro { font-size: 1.15rem; line-height: 1.8; color: #333; margin: 0 0 10px; }
+.about-main h2 { margin-top: 50px; }
+.button-outline { display: inline-block; border: 2px solid #1f4e79; color: #1f4e79; padding: 8px 20px; border-radius: 6px; font-weight: bold; text-decoration: none; margin-left: 8px; }
+.button-outline:hover { background: #d5e2ef; }
+@media (max-width: 800px) {
+  .about-layout { grid-template-columns: 1fr; gap: 30px; }
+  .about-side { position: static; }
+  .about-photo { max-width: 320px; margin: 0 auto; }
+}
