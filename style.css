@@ -28,6 +28,6 @@ footer { text-align: center; padding: 20px; color: #777; }
 .card a { color: #0a66c2; font-weight: bold; text-decoration: none; }
 .card a:hover { text-decoration: underline; }
 .about-hero { position: relative; background: #1f4e79 url('profile.jpeg') center 25% / cover no-repeat; color: white; padding: 140px 20px; }
-.about-hero::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 40, 70, 0.45); }
+.about-hero::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 40, 70, 0.55); }
 .about-content { position: relative; max-width: 800px; margin: 0 auto; line-height: 1.7; }
 .about-content h2 { color: white; border-bottom: 2px solid rgba(255, 255, 255, 0.4); margin-top: 0; }
