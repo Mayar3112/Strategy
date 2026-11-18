@@ -13,3 +13,7 @@ h2 { color: #1f4e79; border-bottom: 2px solid #d5e2ef; padding-bottom: 6px; marg
 .book h3 { margin: 0 0 6px; font-size: 1rem; color: #1f4e79; }
 .book p { margin: 0; color: #555; font-size: 0.9rem; }
 footer { text-align: center; padding: 20px; color: #777; }
+.button { display: inline-block; background: white; color: #1f4e79; padding: 10px 22px; border-radius: 6px; font-weight: bold; text-decoration: none; margin-top: 14px; }
+.button:hover { background: #d5e2ef; }
+.button-blue { display: inline-block; background: #0a66c2; color: white; padding: 10px 22px; border-radius: 6px; font-weight: bold; text-decoration: none; }
+.button-blue:hover { background: #084d93; }
